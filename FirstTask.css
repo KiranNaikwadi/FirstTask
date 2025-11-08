@@ -1,156 +1,144 @@
 * {
   margin: 0;
   padding: 0;
-  border: 0;
   box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f7f7f7;
-  overflow-x: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f6f8fa;
+  color: #222;
+  line-height: 1.6;
 }
 
 .main {
-  width: 70%;
-  min-height: 15vh;
-  border: 2px solid black;
-  padding: 30px;
+  width: 75%;
   margin: 40px auto;
-  display: flex;
-  flex-direction: column;
-  background-color: #cff3ea;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 25px 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
-  background-color: #E06B80;
+  background: #e46b7a;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 8px;
 }
 
 .logo h1 {
-  margin-left: 10px;
-  font-size: 28px;
-}
-
-.logo h3 {
-  font-size: 18px;
-  color:blueviolet;
-  font-family:"Lucida Console", "Courier New", monospace;
-  margin-left: 10px;
-  margin-top: 2px;
-}
-
-.profile img {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-right: 10px;
-  border: 2px solid #555;
-}
-
-.nav {
-  margin-top: 5px;
-  text-align: left;
-  background-color: #E06B80;
-}
-
-.nav ol {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin: 10px 0 0 15px;
-}
-
-.nav li a {
-  color: rgb(104, 200, 238);
-  font-size: 15px;
-  line-height: 1.5;
-}
-
-a:hover {
-  color: blue;
-}
-
-.header {
-  text-align: center;
-  margin-top: 20px;
-  background-color: #E06B80;
-}
-
-.header h1 {
   font-size: 26px;
 }
 
-.vertical, .vertical1 {
-  border-top: 1px solid black;
-  width: 100%;
-  margin: 30px 0;
-  align-self: center;
+.logo h3 {
+  font-weight: normal;
+  font-size: 18px;
+  margin: 3px 0;
 }
 
-.section, .article {
-  display: flex;
-  justify-content: space-between;
-  background-color: hsl(40, 95%, 75%);
-  gap: 0;
+.logo p {
+  font-size: 14px;
+  color: #f0f0f0;
+  max-width: 500px;
 }
 
-.box, .box1, .box3, .box4 {
-  flex: 1;
-  text-align: center;
+.profile img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.nav {
+  background-color: #f3f3f3;
   padding: 15px;
-  border:1 px solid black;
+  margin-top: 20px;
+  border-radius: 8px;
 }
 
-.box, .box3 {
-  border-right: 2px solid black;
+.nav ul {
+  list-style: none;
 }
 
-.box h4, .box1 h4, .box3 h4, .box4 h4 {
-  color: rgb(6, 195, 238);
+.nav li {
+  margin: 6px 0;
+  font-size: 15px;
+}
+
+.nav a {
+  color: #0078d4;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 30px 0;
+}
+
+.section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  flex: 1;
+  background-color: #fef7e1;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.box h4 {
+  color: #e46b7a;
+  border-bottom: 2px solid #e46b7a;
+  display: inline-block;
+  padding-bottom: 3px;
   margin-bottom: 10px;
 }
 
-.box ol, .box1 ol, .box3 ol, .box4 ol {
-  list-style-type: none;
-  border-top: 2px solid black;
-  padding-top: 10px;
+.box h5 {
+  color: #333;
+  margin-top: 12px;
+  font-size: 16px;
 }
 
-.box h5, .box1 h5, .box3 h5, .box4 h5 {
-  color: rgb(240, 82, 30);
-  margin-top: 10px;
-}
-
-.box li, .box1 li, .box3 li, .box4 li {
-  margin-top: 8px;
-  color: black;
+.box ul {
+  margin-left: 15px;
 }
 
 footer {
   text-align: center;
-  padding: 12px;
-  background-color: #E06B80;
-  margin-top: 10px;
+  background: #e46b7a;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 25px;
 }
 
 .footer-icons {
-  margin-top: 8px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
   gap: 20px;
 }
 
 .footer-icons img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
-  border: 1px solid black;
-  background-color: white;
+  background: white;
   padding: 5px;
+  border: 1px solid #ccc;
 }
