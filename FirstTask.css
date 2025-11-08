@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f7f7f7;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 70%;
+  min-height: 15vh;
+  border: 2px solid black;
+  padding: 30px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+}
+
+.logo h1 {
+  margin-left: 10px;
+  font-size: 28px;
+}
+
+.logo h3 {
+  font-size: 18px;
+  color: gray;
+  margin-left: 10px;
+  margin-top: 2px;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #555;
+}
+
+.nav {
+  margin-top: 5px;
+  text-align: left;
+  background-color: #f1f1f1;
+}
+
+.nav ol {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin: 10px 0 0 15px;
+}
+
+.nav li a {
+  color: rgb(104, 200, 238);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.header {
+  text-align: center;
+  margin-top: 20px;
+  background-color: #f1f1f1;
+}
+
+.header h1 {
+  font-size: 26px;
+}
+
+.vertical, .vertical1 {
+  border-top: 1px solid black;
+  width: 100%;
+  margin: 30px 0;
+  align-self: center;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  background-color: #f1f1f1;
+  position: relative;
+  gap: 0;
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  position: relative;
+  gap: 0;
+}
+
+.box, .box1, .box3, .box4 {
+  flex: 1;
+  text-align: center;
+  padding: 15px;
+  border: none;
+}
+
+.box {
+  border-right: 2px solid black;
+}
+
+.box3 {
+  border-right: 2px solid black;
+}
+
+.box h4, .box1 h4, .box3 h4, .box4 h4 {
+  color: rgb(6, 238, 161);
+  margin-bottom: 10px;
+}
+
+.box ol, .box1 ol, .box3 ol, .box4 ol {
+  list-style-type: none;
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+
+.box h5, .box1 h5, .box3 h5, .box4 h5 {
+  color: rgb(240, 82, 30);
+  margin-top: 10px;
+}
+
+.box li, .box1 li, .box3 li, .box4 li {
+  margin-top: 8px;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f1f1f1;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: blue;
+}
