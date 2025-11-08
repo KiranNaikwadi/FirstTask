@@ -68,6 +68,9 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
+ a:hover {
+  color: blue;
+}
 
 .header {
   text-align: center;
