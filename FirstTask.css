@@ -19,6 +19,7 @@ body {
   margin: 40px auto;
   display: flex;
   flex-direction: column;
+  background-color: #D6F4ED;
 }
 
 .navbar {
@@ -26,7 +27,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-  background-color: #f1f1f1;
+  background-color: #EBE6E6;
 }
 
 .logo h1 {
@@ -36,7 +37,8 @@ body {
 
 .logo h3 {
   font-size: 18px;
-  color: gray;
+  color: rgb(235, 115, 115);
+  font-family: Arial, Helvetica, sans-serif;
   margin-left: 10px;
   margin-top: 2px;
 }
@@ -52,7 +54,7 @@ body {
 .nav {
   margin-top: 5px;
   text-align: left;
-  background-color: #f1f1f1;
+  background-color: #EBE6E6;
 }
 
 .nav ol {
@@ -68,14 +70,15 @@ body {
   font-size: 15px;
   line-height: 1.5;
 }
- a:hover {
+
+a:hover {
   color: blue;
 }
 
 .header {
   text-align: center;
   margin-top: 20px;
-  background-color: #f1f1f1;
+  background-color: #efeaea;
 }
 
 .header h1 {
@@ -89,20 +92,10 @@ body {
   align-self: center;
 }
 
-.section {
+.section, .article {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
-  background-color: #f1f1f1;
-  position: relative;
-  gap: 0;
-}
-
-.article {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f1f1f1;
-  position: relative;
+  background-color: #efeaea;
   gap: 0;
 }
 
@@ -110,14 +103,10 @@ body {
   flex: 1;
   text-align: center;
   padding: 15px;
-  border: none;
+  border:1 px solid black;
 }
 
-.box {
-  border-right: 2px solid black;
-}
-
-.box3 {
+.box, .box3 {
   border-right: 2px solid black;
 }
 
@@ -144,16 +133,24 @@ body {
 
 footer {
   text-align: center;
-  padding: 10px;
-  background-color: #f1f1f1;
+  padding: 12px;
+  background-color: #efeaea;
   margin-top: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.footer-icons {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
-footer a:hover {
-  color: blue;
+.footer-icons img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: white;
+  padding: 5px;
 }
